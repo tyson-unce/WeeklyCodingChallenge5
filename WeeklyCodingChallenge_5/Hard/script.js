@@ -6,17 +6,17 @@
 
 // }
 
-function makeFunc() {
-    var name = 'Mozilla';
-    function displayName() {
-      console.log(name);
-      return name
-    }
-    return displayName;
+class thisThing{
+  pii(){
+      this.name = "Tyson Unce";
+      this.ssn = 333-33-3333
   }
 
-let newFunc = makeFunc()
-console.log(newFunc())
+
+  }
+
+  let thisName = new thisThing();
+  console.log(thisName.ssn)
 
 
 
